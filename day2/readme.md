@@ -21,7 +21,9 @@
 ### Lab
 * [Node.js Basics](Lab/Introduction.md)
 * [Create Server and Handle Requests](Lab/RequestAndResponse.md)
+* [Express Framework Introduction](Lab/expressIntro.md)
 * [Example Codes](Lab)
+* [Express Server Example Code](Lab/express/app.js)
 * [Lab Task](LabTask.md)
 
 ### HomeWork
