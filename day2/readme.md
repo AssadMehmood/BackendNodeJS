@@ -17,7 +17,7 @@
 * [Introduction to Node.js](IntroductiontoNodejs.pptx)
 * [Introduction to Express Framework](IntroductionToExpress.pptx)
 * [Node.js Pdf Notes](Nodejs.pdf)
-
+* [Express Framework Notes](Lab/express/ExpressI.pdf)
 ### Lab
 * [Node.js Basics](Lab/Introduction.md)
 * [Create Server and Handle Requests](Lab/RequestAndResponse.md)
