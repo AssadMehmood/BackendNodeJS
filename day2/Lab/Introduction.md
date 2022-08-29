@@ -11,7 +11,7 @@ speak();
 ```
 **What will be the output of the above code?**
 
-There are differences in front-end JS and back-end JS. Somem of them are:
+There are differences in front-end JS and back-end JS. Some of them are:
 
 ### The Global Object
 
