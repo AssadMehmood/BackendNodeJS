@@ -67,9 +67,13 @@ app.get("/products", (req, res) => {
   res.send(products);
 });
 //    /products/iphone
-app.get("/products/:product/:price", (req, res) => {});
+app.get("/products/:product/:price", (req, res) => {
+  //Code here
+});
 
-app.get("/namesOnly", (req, res) => {});
+app.get("/namesOnly", (req, res) => {
+  //code here
+});
 
 app.post("/products", (req, res) => {
   products.push(req.body);
@@ -77,12 +81,7 @@ app.post("/products", (req, res) => {
 });
 
 app.put("/products", (req, res) => {
-  products.forEach((elem) => {
-    if (elem.name == req.body.product) {
-      elem.price = req.body.price;
-    }
-  });
-  res.send(products);
+  //code here
 });
 
 const PORT = process.env.PORT || 8000;
