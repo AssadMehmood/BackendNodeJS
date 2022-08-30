@@ -1,4 +1,4 @@
-# Week 1 Day 3: Introduction to Express FrameWork, Creating Custom APIs using Express 
+# Week 1 Day 3: Express FrameWork, Creating Custom APIs using Express 
 
 ### Warmup
 * [Exercise](warmup.md)
