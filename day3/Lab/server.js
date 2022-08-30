@@ -62,27 +62,7 @@ const products = [
 const app = express();
 
 app.use(express.json());
-//const body = {name: "fawzi"}
-app.post("/", (req, res) => {
-  console.log(req.body);
-  fs.writeFile(
-    "person.json",
-    `{"name":"${req.body.name}", "job":"${req.body.job}","hobby":"${req.body.hobby}"}`,
-    (err) => {
-      if (err) {
-        console.log(err);
-        res.send("error");
-      }
-      res.send("person info added");
-    }
-  );
-});
 
-// app.get("/", (req,res)=>{
-//     res.send(products);
-// })
-
-//                request,response
 app.get("/products", (req, res) => {
   res.send(products);
 });
@@ -105,19 +85,6 @@ app.put("/products", (req, res) => {
   res.send(products);
 });
 
-// app.get("/namesOnly",(req,res)=>{
-//     const names = products.map(elem=>{
-//         return elem.name;
-//     })
-//     res.send(names);
-// })
-
-// app.get("/:product",(req,res)=>{
-//     const product = products.find(elem=>{
-//         return elem.name = req.params.product
-//     })
-//     res.send(`${product.name}:${product.price}`)
-// })
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`server is working on port ${PORT}`);
