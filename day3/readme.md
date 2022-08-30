@@ -17,6 +17,7 @@
 ### Labs
 * [Express I](Lab/ExpressI)
 * [Express II](Lab/ExpressII)
+* [Create Restful API](Lab/server.js)
 
 ### HomeWork
 * [Create Custom RESTful API using Express](homework.md)
