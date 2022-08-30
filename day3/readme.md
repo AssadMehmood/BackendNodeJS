@@ -19,7 +19,7 @@
 * [Express II](Lab/ExpressII)
 
 ### HomeWork
-* [Create Custome RESTful API using Express](homework.md)
+* [Create Custom RESTful API using Express](homework.md)
 ### Extra
 * [ How to build REST API with Node js & Express](https://www.youtube.com/watch?v=pKd0Rpw7O48)
 * [Express Framework](http://expressjs.com/en/api.html#express)
