@@ -55,7 +55,7 @@ The routes based on http methods are defined as under:
 app.get('/blogs', (req, res) => {
   Blog.find().sort({ createdAt: -1 })
     .then(result => {
-      res.render('index', { blogs: result, title: 'All blogs' });
+      res.json({ blogs: result, title: 'All blogs' });
     })
     .catch(err => {
       console.log(err);
@@ -68,7 +68,7 @@ app.post('/blogs', (req, res) => {
 
   blog.save()
     .then(result => {
-      res.redirect('/blogs');
+      res.send(blog);
     })
     .catch(err => {
       console.log(err);
@@ -79,7 +79,7 @@ app.get('/blogs/:id', (req, res) => {
   const id = req.params.id;
   Blog.findById(id)
     .then(result => {
-      res.render('details', { blog: result, title: 'Blog Details' });
+      res.json({ blog: result, title: 'Blog Details' });
     })
     .catch(err => {
       console.log(err);
@@ -91,7 +91,7 @@ app.delete('/blogs/:id', (req, res) => {
   
   Blog.findByIdAndDelete(id)
     .then(result => {
-      res.json({ redirect: '/blogs' });
+      res.send("Blog item deleted");
     })
     .catch(err => {
       console.log(err);
