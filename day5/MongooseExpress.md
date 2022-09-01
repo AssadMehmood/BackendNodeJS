@@ -8,6 +8,8 @@ Following are the steps to use MongoDB for CRUD operations by utilizing Mongoose
 - For each of the http method calls, use the models to respond to user request.
 
 Consider the following Example for creating a blog, and manipulate blog posts in database based on user request. 
+- Create a seperate file and name it say: BlogPost.js inside **models** folder
+
 - Blog Model
 ```js
 const mongoose = require('mongoose');
@@ -41,7 +43,11 @@ const Blog = require('./models/blog');
 .
 .
 //Connect to the database using mongoose.connect
+mongoose.connect('mongodb://localhost/my_database', {useNewUrlParser: true});
+
 ```
+- In `app.js` define the routes for **CRUD** operations.
+
 The routes based on http methods are defined as under:
 
 ```js
