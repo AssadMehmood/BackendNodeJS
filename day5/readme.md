@@ -12,7 +12,6 @@
 * [Mongoose Documentation: Getting Started with Mongoose](https://mongoosejs.com/docs/index.html)
 * [Schemas](https://mongoosejs.com/docs/guide.html)
 * [Queries](https://mongoosejs.com/docs/queries.html)
-* [Mongoose Populate](MongoosePopulate.md)
 
 
 ### Labs
