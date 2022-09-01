@@ -8,7 +8,7 @@ Following are the steps to use MongoDB for CRUD operations by utilizing Mongoose
 - For each of the http method calls, use the models to respond to user request.
 
 Consider the following Example for creating a blog, and manipulate blog posts in database based on user request. 
-- Create a seperate file and name it say: BlogPost.js inside **models** folder
+- Create a seperate file and name it say: blog.js inside **models** folder
 
 - Blog Model
 ```js
