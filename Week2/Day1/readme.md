@@ -1,4 +1,4 @@
-# Week 2 Day 1: Full Stack Development with React and Express, Project 
+# Week 2 Day 1: Full Stack Development with React and Express, Software Development Process, Project 
 
 
 ### Objectives
@@ -28,7 +28,7 @@
 * [Mongoose Populate](MongoosePopulate.md)
   
 ### Project Guidelines
-* [Project Guideline](projectGuidelines.md)
+* [Project Guidelines](projectGuidelines.md)
   
 ### Reading Material
 * [MongoDB CheetSheet](MongoDBCheetSheet.pdf)
