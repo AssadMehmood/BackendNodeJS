@@ -10,7 +10,7 @@
 * Introduction to different approaches in software development process
 * Introduction to Agile Development Process
 * Pros and Cons of different development process models
-* Approaches in Web Development and Stacks (once again!)
+* Approaches in Web Development and Stacks
 * Different Design Patterns used in Web Development
 
 ### Lectures
